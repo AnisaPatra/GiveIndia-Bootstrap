@@ -1,0 +1,309 @@
+@media only screen and (min-width: 1400px) { 
+body {
+    overflow-x: hidden;
+    font-family: 'Open Sans' ,Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased ! important;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+h1,h2,h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    transition: all 300ns ease-in-out;
+    font-weight: 500 ! important;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color:snow !important ;
+    color: crimson!important;
+    border:1px solid #fff !important;
+}
+
+.navbar{
+    background-color:black;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    height: 80px;
+}
+
+.navbar-brand{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 12px;
+}
+
+.navbar-right{
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.navbar a {
+    color:white !important;
+}
+
+.navbar a:hover {
+    background-color: grey !important;
+    opacity: 0.5;
+}
+
+.header,.about, .team, .donate{
+    width: 1520px;
+    padding: 30px 0 30px;
+    margin-top: 50px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+}
+
+.about h2, .donate h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+/*Header*/
+
+.header{
+    height: 700px;
+    background-image: url(../images/war.jpg);
+    opacity: 0.87;
+}
+
+.header h1{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 100px;
+    opacity: 1;
+}
+
+.header p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.header btn{
+    border-radius: 0;
+    margin: 40px 20px;
+} 
+
+/*About Us*/
+
+.about{
+    height: 600px;
+    background-image: url(../images/c.png);
+    opacity:0.9
+}
+
+
+.about p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*Donations*/
+
+.donate{
+    height: 980px;
+    background-image: url(../images/donate.jpg);
+}
+
+.donate h3,.donate h4{
+    margin: 20px 0 20px;
+}
+
+.donate p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.donate b{
+    font-size: 16px;
+    font-stretch: normal;
+    padding-bottom: 40px;
+}
+
+.donate i{
+    height: 50px;
+    width: 100px;
+    font-size: 50px;
+    font-variant-position: normal;
+    padding: 25px 20px;
+    border-radius: 50%;
+   object-position: center;
+}
+
+.donate btn{
+    border-radius: 0;
+    margin: 40px 20px;
+    object-position: center;
+}
+
+/*Team*/
+
+.team{
+    height: 800px;
+    background-image: url(../images/6tb5.jpg);
+    padding: 50px 0 80px;
+}
+
+.team h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 30x;
+    margin-top: 20px;
+    color: floralwhite;
+}
+
+.team p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.team h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.team p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.team img{
+    margin-inline-start: 30px;
+    height: 210px;
+    width: 210px;
+    margin-top: 80px;
+}
+
+.social_icons{
+    margin-inline-start: 70px;
+}
+
+.team i{
+    width: 25px;
+    font-size: 23px;
+    color: red;
+}   
+
+/*Contact Us*/
+.contact{
+    height: 580px;
+    width: 1520px;
+    margin-top: 50px;
+    background-image: url(../images/a.jpg);
+    background-position: right;
+    background-size:cover;
+    color:white;
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.conatct p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+.contact h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    margin-top: 20px;
+    color: floralwhite;
+}
+
+.contact .input-group{
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.contact-form-control{
+    padding: 15px;
+    border-radius: 0 !important;
+}
+
+.contact span{
+    border-radius: 0 !important;
+}
+
+.contact .btn{
+    border-radius: 0;
+    width: 95%;
+    font-size: 15px;
+    background-color: #f08080;
+    color: #fff;
+}
+
+.contact .btn:hover{
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+/*Footer*/
+
+.footer{
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+
+.footer .social{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer i{
+    font-size: 20px;
+    font-weight: 500;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.footer input{
+    color: black;
+}
+
+}
